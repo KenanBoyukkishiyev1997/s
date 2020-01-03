@@ -123,6 +123,10 @@
 .nav {
   background-color: #002056;
   display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .nav_list {
