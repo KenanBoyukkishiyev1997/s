@@ -1,0 +1,125 @@
+.header {
+    display: block;
+
+
+    &-main {
+        padding: 15px 0;
+        padding-bottom: 20px;
+    }
+
+    &-search {
+        background: $white;
+        border: 1px solid $lightGrey;
+        width: 500px;
+        height: 45px;
+        position: relative;
+        top: 7px;
+        border-radius: 3px;
+
+
+        &--input {
+            width: 95%;
+            display: block;
+            float: left;
+            border: none;
+            background: transparent;
+            font-family: 'BYekan', tahoma;
+            font-size: 14px;
+            position: relative;
+            top: 9px;
+            outline: none;
+        }
+
+        &--btn {
+            border: none;
+            background: transparent;
+            margin: 8px auto;
+        }
+    }
+
+    &_shopcart {
+        border-radius: 3px 0 0 3px;
+        border-right: 0;
+    }
+
+    .linkbtn {
+        float: left;
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            display: block;
+            background: #eeeeee;
+            border: 1px solid $lightGrey;
+            height: 45px;
+            position: relative;
+            top: 7px;
+            background-color: $darkGrey;
+            width: 150px;
+            color: $darkGrey1;
+            transition: all .4s;
+
+            &:hover {
+                color: $lightGreen;
+            }
+        }
+
+        &--view {
+            text-align: center;
+
+        }
+
+        &--shop {
+            text-align: right;
+        }
+
+    }
+
+    .title-cart {
+        position: relative;
+        font-size: 14px;
+        position: relative;
+        top: 3px;
+        right: 15px;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+
+    .number-cart {
+        background: $lightGrey1;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        position: relative;
+        top: 4px;
+        margin: auto 5px;
+        line-height: 16px;
+        text-align: center;
+        color: $black;
+        border-radius: 3px;
+
+    }
+
+    .icon-cart {
+        background: url(../img/spritecss.png) no-repeat;
+        display: inline-block;
+        position: relative;
+        top: 11px;
+        margin-right: 25px;
+        width: 22px;
+        height: 22px;
+        background-position: -60px -255px;
+    }
+
+    .icon-login {
+        background: url(../img/spritecss.png) no-repeat;
+        display: inline-block;
+        position: relative;
+        top: 13px;
+        margin-right: 25px;
+        width: 26px;
+        height: 19px;
+        background-position: -92px -255px;
+    }
+}

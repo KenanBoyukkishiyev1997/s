@@ -1,0 +1,116 @@
+.navbars {
+    background: $darkGrey;
+    height: 50px;
+    border-top: 1px solid $lightGrey;
+    border-bottom: 1px solid $lightGrey;
+    overflow: hidden;
+
+    .title-categories {
+        float: right;
+        width: 250px;
+
+
+        .main-title-categories {
+            border-top: 3px solid $red;
+            width: 100%;
+            height: 50px;
+            background-color: $darkBlue;
+
+            h3 {
+                color: $white;
+                font-size: 16px;
+                float: right;
+                position: relative;
+                top: 10px;
+                right: 15px;
+            }
+
+            i {
+                float: left;
+                display: block;
+                color: white;
+                font-size: 20px;
+                position: relative;
+                top: 14px;
+                cursor: pointer;
+                left: 15px;
+            }
+        }
+
+
+    }
+
+
+
+
+    .alert-site {
+        margin-right: 15px;
+        float: right;
+        width: 600px;
+        height: 50px;
+
+
+    }
+
+    .title-alert {
+        background: $oringe;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 12px;
+        color: $white;
+        width: 20%;
+        padding: 7px 0;
+        position: relative;
+        top: 11px;
+        float: right;
+    }
+
+
+    .wish-page {
+        float: left;
+        margin-right: 10px;
+
+        a:link,
+        a:visited{
+            border: 1px solid $lightGrey;
+            color: #7b7b7b;
+            text-decoration: none;
+            border-radius: 3px;
+            text-align: center;
+            padding: 5px 15px;
+            position: relative;
+            top: 7px;
+            width: 100%;
+            font-size: 12px;
+            display: block;
+        }
+        i{
+            margin-right: 5px;
+            color: $oringe;
+        }
+    }
+
+    .channel-telegram {
+        float: left;
+        width: 170px;
+
+        a:link,
+        a:visited{
+            color: $white;
+            background: linear-gradient(#1D93D2,#39B0E3);
+            border-radius: 3px;
+            text-align: center;
+            padding: 5px 2px;
+            text-decoration: none;
+            position: relative;
+            top: 8px;
+            width: 100%;
+            font-size: 12px;
+            display: block;
+        }
+
+        i{
+            margin-right: 5px;
+        }
+    }
+}

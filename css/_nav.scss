@@ -1,0 +1,95 @@
+.nav {
+    background-color: $darkBlue;
+    display: inline-block;
+
+    
+
+    &_list {
+        margin: auto;
+        display: inline-flex;
+        float: left;
+        width: 900px;
+    }
+
+    &_item {
+
+        list-style: none;
+        text-transform: capitalize;
+        transition: all .3s;
+        position: relative;
+
+        &:hover {
+            background-color: $darkBlueHover;
+            transition: all .3s;
+        }
+    }
+
+    &_link:link,
+    &_link:visited {
+        text-decoration: none;
+        color: $white;
+        display: block;
+        font-size: 14px;
+        padding: 16px 12px 10px;
+        border-bottom: 3px solid $red;
+
+
+    }
+
+    &_social {
+        position: relative;
+        top: 8px;
+        float: right;
+        margin-left: 45px;
+
+        &--link:link,
+        &--link:visited {
+            text-decoration: none;
+            color: $lightGrey;
+            margin-right: 2px;
+            font-size: 16px;
+        }
+    }
+
+    &_contactus {
+        float: right;
+        height: 50px;
+        width: 130px;
+        position: relative;
+        background-color: $darkBlueHover;
+
+        &--imgphone {
+            position: absolute;
+            background: url(../img/spritecss.png) no-repeat;
+            width: 31px;
+            height: 35px;
+            background-position: -125px -81px;
+            right: -20px;
+            top: 7px;
+        }
+
+        &--title {
+            color: $white;
+            position: relative;
+            margin-left: 15px;
+            top: 4px;
+            font-size: 10px;
+        }
+    }
+    &_mob{
+        float: left;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin: 10px;
+        background: $lightGreen;
+        display: none;
+        &--link:link,
+        &--link:visited{
+            text-decoration: none;
+            color: $white;
+
+        }
+    }
+}
+
+
