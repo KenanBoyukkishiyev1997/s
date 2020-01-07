@@ -1,0 +1,39 @@
+.pagination {
+    clear: both;
+    position: relative;
+    font-size: 11px;
+    line-height: 13px;
+
+    span {
+        display: block;
+        float: right;
+        margin-left: 5px;
+        padding: 5px 10px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        width: auto;
+        color: #666;
+        border-radius: 3px;
+        background: $white;
+    }
+
+
+    .current {
+        background: #25AE88;
+        color: #fff;
+    }
+
+
+    a {
+        display: block;
+        float: right;
+        margin-left: 5px;
+        padding: 5px 10px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        width: auto;
+        color: #666;
+        border-radius: 3px;
+        background: #ffffff;
+    }
+}

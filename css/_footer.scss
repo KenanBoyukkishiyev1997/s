@@ -1,0 +1,163 @@
+.footer {
+    padding: 30px 0;
+    padding-bottom: 0;
+    background-color: $darkBlue;
+}
+
+
+.ftpart1 {
+    border-bottom: 1px solid $darkBlue;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-ft {
+    width: 15%;
+    float: right;
+    margin-left: 1%;
+
+    ul {
+        list-style: none;
+
+        li {
+            a {
+                font-size: 13px;
+                color: $primaryColorlight;
+            }
+        }
+    }
+}
+
+.about-ft {
+    width: 52%;
+    float: right;
+
+    p {
+        font-family: 'BYekan', tahoma;
+        font-size: 13px;
+        color: $primaryColorlight;
+        text-align: justify;
+    }
+}
+
+.ft-title {
+    color: $white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ftpart2 {
+    padding-bottom: 30px;
+}
+
+
+
+
+.ftcontact {
+    margin-left: 1%;
+    float: right;
+    width: 30%;
+
+    p {
+        font-size: 13px;
+        color: $primaryColorlight;
+        text-align: justify;
+    }
+}
+
+
+.ftsocial {
+    margin-left: 1%;
+    float: right;
+    width: 20%;
+
+    p {
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: $primaryColorlight;
+        text-align: justify;
+    }
+
+    a:link,
+    a:visited {
+        color: $white;
+        background: rgba(54, 60, 96, 0.7);
+        font-size: 15px;
+        text-align: center;
+        display: inline-block;
+        width: 30px;
+        margin-left: 3px;
+        border-radius: 3px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
+
+.ftnews {
+    float: right;
+    width: 27%;
+
+    p {
+        margin-bottom: 10px;
+        line-height: 22px;
+        font-size: 13px;
+        color: $primaryColorlight;
+        text-align: justify;
+    }
+
+    input {
+        background: $white;
+        border-radius: 3px;
+        border: none;
+        display: inline-block;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+
+    .ftnews button {
+        background: $lightGreen;
+        border-radius: 3px;
+        border: none;
+        color: $white;
+        padding: 4px 5px;
+        border: none;
+        display: inline-block;
+        font-size: 12px;
+    }
+
+
+
+}
+
+
+.footer-cpright {
+    background: rgba(-15, 17, 71, 1);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.copy-right {
+    width: 250px;
+    float: right;
+    p{
+        color: $white;
+    }
+}
+
+
+.designer {
+    float: left;
+color: $white;
+    a:link,
+    a:visited {
+        font-size: 13px;
+        color: $primaryColorlight;
+        text-align: justify;
+        text-decoration: none;
+        color: $white;
+    }
+
+
+}
